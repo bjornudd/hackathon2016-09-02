@@ -28,5 +28,19 @@ public class movement : MonoBehaviour {
 
 			Destroy (this.gameObject);
 		}
+
+		if (collision.gameObject.tag == "Enemy") {
+
+			GiveDamage (collision);
+		}
+
 	}
+
+
+
+	void GiveDamage(Collision2D collision)
+	{
+		Destroy (collision.collider.gameObject);
+	}
+
 }

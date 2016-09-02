@@ -35,6 +35,16 @@ public class EnemyMovement : MonoBehaviour {
 			dire = 1;
 		}
 
+		if (other.gameObject.tag == "Enemy") {
+
+			TakeDamage ();
+		}
+
 	}
 
+
+	void TakeDamage()
+	{
+		Destroy (this);	
+	}
 }
