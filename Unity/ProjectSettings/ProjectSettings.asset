@@ -119,7 +119,7 @@ PlayerSettings:
     serializedVersion: 2
     m_Bits: 238
   iPhoneSdkVersion: 988
-  iOSTargetOSVersionString: 6.0
+  iOSTargetOSVersionString: 7.0
   tvOSSdkVersion: 0
   tvOSRequireExtendedGameController: 0
   tvOSTargetOSVersionString: 9.0
@@ -182,31 +182,18 @@ PlayerSettings:
   m_BuildTargetBatching: []
   m_BuildTargetGraphicsAPIs: []
   m_BuildTargetVRSettings:
-  - m_BuildTarget: Standalone
-    m_Enabled: 0
-    m_Devices:
-    - Oculus
-  - m_BuildTarget: WebPlayer
-    m_Enabled: 0
-    m_Devices: []
-  - m_BuildTarget: iOS
-    m_Enabled: 0
-    m_Devices: []
   - m_BuildTarget: Android
     m_Enabled: 0
     m_Devices:
     - Oculus
-  - m_BuildTarget: WebGL
-    m_Enabled: 0
-    m_Devices: []
   - m_BuildTarget: Metro
     m_Enabled: 0
     m_Devices:
     - HoloLens
-  - m_BuildTarget: Tizen
+  - m_BuildTarget: N3DS
     m_Enabled: 0
     m_Devices: []
-  - m_BuildTarget: PSP2
+  - m_BuildTarget: PS3
     m_Enabled: 0
     m_Devices: []
   - m_BuildTarget: PS4
@@ -216,16 +203,35 @@ PlayerSettings:
   - m_BuildTarget: PSM
     m_Enabled: 0
     m_Devices: []
-  - m_BuildTarget: XboxOne
+  - m_BuildTarget: PSP2
     m_Enabled: 0
     m_Devices: []
   - m_BuildTarget: SamsungTV
     m_Enabled: 0
     m_Devices: []
-  - m_BuildTarget: N3DS
+  - m_BuildTarget: Standalone
+    m_Enabled: 0
+    m_Devices:
+    - Oculus
+  - m_BuildTarget: Tizen
+    m_Enabled: 0
+    m_Devices: []
+  - m_BuildTarget: WebGL
+    m_Enabled: 0
+    m_Devices: []
+  - m_BuildTarget: WebPlayer
     m_Enabled: 0
     m_Devices: []
   - m_BuildTarget: WiiU
+    m_Enabled: 0
+    m_Devices: []
+  - m_BuildTarget: Xbox360
+    m_Enabled: 0
+    m_Devices: []
+  - m_BuildTarget: XboxOne
+    m_Enabled: 0
+    m_Devices: []
+  - m_BuildTarget: iOS
     m_Enabled: 0
     m_Devices: []
   - m_BuildTarget: tvOS
@@ -388,7 +394,8 @@ PlayerSettings:
   webGLCompressionFormat: 1
   scriptingDefineSymbols: {}
   platformArchitecture: {}
-  scriptingBackend: {}
+  scriptingBackend:
+    Standalone: 0
   incrementalIl2cppBuild: {}
   additionalIl2CppArgs: 
   metroPackageName: PreviewR101
@@ -423,7 +430,7 @@ PlayerSettings:
   tizenGPSPermissions: 0
   tizenMicrophonePermissions: 0
   tizenDeploymentTarget: 
-  tizenDeploymentTargetType: 0
+  tizenDeploymentTargetType: -370744836
   tizenMinOSVersion: 0
   n3dsUseExtSaveData: 0
   n3dsCompressStaticMem: 1
@@ -465,7 +472,16 @@ PlayerSettings:
   XboxOneAllowedProductIds: []
   XboxOnePersistentLocalStorageSize: 0
   vrEditorSettings: {}
-  cloudServicesEnabled: {}
+  cloudServicesEnabled:
+    Analytics: 0
+    Build: 0
+    Collab: 0
+    ErrorHub: 0
+    Game_Performance: 0
+    Hub: 0
+    Purchasing: 0
+    UNet: 0
+    Unity_Ads: 0
   cloudProjectId: 
   projectName: 
   organizationId: 

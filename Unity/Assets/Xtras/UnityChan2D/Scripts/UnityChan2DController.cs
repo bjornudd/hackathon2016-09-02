@@ -15,8 +15,10 @@ public class UnityChan2DController : MonoBehaviour
     private bool m_isGround;
     private const float m_centerY = 1.5f;
 
-    private State m_state = State.Normal;
+	public GameObject m_bullet;
 
+    private State m_state = State.Normal;
+	private CharacterDirection m_characterDirection = CharacterDirection.Right;
     void Reset()
     {
         Awake();
@@ -53,23 +55,50 @@ public class UnityChan2DController : MonoBehaviour
     {
         if (m_state != State.Damaged)
         {
-            float x = Input.GetAxis("Horizontal");
+			float x = Input.GetAxis("Horizontal");
+			float y = Input.GetAxis("Vertical");
             bool jump = Input.GetButtonDown("Jump");
-            Move(x, jump);
+			Move(x, y, jump);
         }
+		bool shoot = Input.GetKeyDown(KeyCode.LeftControl);
+
+		if (shoot) {
+			Vector2 pos = transform.position;
+			Vector3 startBulletPos = transform.position;
+			Debug.Log (startBulletPos);
+			startBulletPos.x += 30.0f;
+			Debug.Log (startBulletPos);
+			GameObject bullet = (GameObject)Instantiate (m_bullet, startBulletPos, transform.rotation);
+
+			if (m_characterDirection == CharacterDirection.Left) {
+				
+				bullet.GetComponent<movement> ().direction = true;
+			} else if (m_characterDirection == CharacterDirection.Right) {
+				bullet.GetComponent<movement> ().direction = false;
+			}
+			//bullet.velocity = transform.forward * 1;
+
+		}
     }
 
-    void Move(float move, bool jump)
+	void Move(float x, float y, bool jump)
     {
-        if (Mathf.Abs(move) > 0)
+
+		if (x > 0) {
+			m_characterDirection = CharacterDirection.Right;
+		} else if (x < 0) {
+			m_characterDirection = CharacterDirection.Left;
+		}
+
+		if (Mathf.Abs(x) > 0)
         {
             Quaternion rot = transform.rotation;
-            transform.rotation = Quaternion.Euler(rot.x, Mathf.Sign(move) == 1 ? 0 : 180, rot.z);
+			transform.rotation = Quaternion.Euler(rot.x, Mathf.Sign(x) == 1 ? 0 : 180, rot.z);
         }
 
-        m_rigidbody2D.velocity = new Vector2(move * maxSpeed, m_rigidbody2D.velocity.y);
+		m_rigidbody2D.velocity = new Vector2(x * maxSpeed, m_rigidbody2D.velocity.y);
 
-        m_animator.SetFloat("Horizontal", move);
+		m_animator.SetFloat("Horizontal", x);
         m_animator.SetFloat("Vertical", m_rigidbody2D.velocity.y);
         m_animator.SetBool("isGround", m_isGround);
 
@@ -79,6 +108,8 @@ public class UnityChan2DController : MonoBehaviour
             SendMessage("Jump", SendMessageOptions.DontRequireReceiver);
             m_rigidbody2D.AddForce(Vector2.up * jumpPower);
         }
+
+
     }
 
     void FixedUpdate()
@@ -128,6 +159,14 @@ public class UnityChan2DController : MonoBehaviour
     {
         Normal,
         Damaged,
-        Invincible,
+        Invincible
     }
+
+	enum CharacterDirection
+	{
+		Left,
+		Right,
+		Up,
+		Down
+	}
 }
