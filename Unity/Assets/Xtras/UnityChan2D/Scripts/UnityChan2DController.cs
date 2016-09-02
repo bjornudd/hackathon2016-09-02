@@ -66,7 +66,7 @@ public class UnityChan2DController : MonoBehaviour
 			Vector2 pos = transform.position;
 			Vector3 startBulletPos = transform.position;
 			Debug.Log (startBulletPos);
-			startBulletPos.x += 30.0f;
+			startBulletPos.x += 0.1f;
 			Debug.Log (startBulletPos);
 			GameObject bullet = (GameObject)Instantiate (m_bullet, startBulletPos, transform.rotation);
 
@@ -77,6 +77,9 @@ public class UnityChan2DController : MonoBehaviour
 				bullet.GetComponent<movement> ().direction = false;
 			}
 			//bullet.velocity = transform.forward * 1;
+
+
+			Debug.Log ("Shoot");
 
 		}
     }
