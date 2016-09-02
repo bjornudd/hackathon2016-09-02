@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!365 &36500000
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: sushi
+  m_Hash:
+    serializedVersion: 2
+    Hash: 0dfb6175ae23a797f92d213d27217f61
+  m_CompressionQuality: 0
+  m_MaxWidth: 2048
+  m_MaxHeight: 2048
+  m_PaddingPower: 2
+  m_AnisoLevel: 1
+  m_Format: 5
+  m_TextureCompression: 0
+  m_ColorSpace: 1
+  m_FilterMode: 1
+  m_GenerateMipMaps: 0
+  m_EnableTightPacking: 1
+  m_EnableRotation: 1
+  m_AllowAlphaSplitting: 0
+  m_Readable: 1
+  m_HashString: 0dfb6175ae23a797f92d213d27217f61
+  m_TextureCount: 1
+  m_AlphaTexturesCount: 0
+  m_InputPackables:
+  - {fileID: 102900000, guid: efe586461176d45428234bda9eaaa0ab, type: 3}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 41a5ff958aea51248bd1bb22ec78bb2d, type: 3}
+  - {fileID: 21300002, guid: 41a5ff958aea51248bd1bb22ec78bb2d, type: 3}
+  - {fileID: 21300004, guid: 41a5ff958aea51248bd1bb22ec78bb2d, type: 3}
+  - {fileID: 21300006, guid: 41a5ff958aea51248bd1bb22ec78bb2d, type: 3}
+  - {fileID: 21300008, guid: 41a5ff958aea51248bd1bb22ec78bb2d, type: 3}
+  - {fileID: 21300000, guid: dc8545d09a8f712438440078cec8b567, type: 3}
+  - {fileID: 21300002, guid: dc8545d09a8f712438440078cec8b567, type: 3}
+  - {fileID: 21300004, guid: dc8545d09a8f712438440078cec8b567, type: 3}

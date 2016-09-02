@@ -1,0 +1,221 @@
+fileFormatVersion: 2
+guid: 41a5ff958aea51248bd1bb22ec78bb2d
+timeCreated: 1471532352
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: sushi_set_a_0
+    21300002: sushi_set_a_1
+    21300004: sushi_set_a_2
+    21300006: sushi_set_a_3
+    21300008: sushi_set_a_4
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 200
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sushi_set_a_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 321
+        width: 403
+        height: 355
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sushi_set_a_1
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 628
+        width: 460
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 187, y: -86}
+        - {x: 230, y: -48}
+        - {x: 230, y: 64}
+        - {x: 114, y: 198}
+        - {x: -169, y: 198}
+        - {x: -209, y: 189}
+        - {x: -230, y: 138}
+        - {x: -230, y: 10}
+        - {x: -106, y: -163}
+        - {x: -57, y: -198}
+        - {x: -12, y: -198}
+        - {x: 71, y: -153}
+        - {x: 109, y: -123}
+        - {x: 114, y: -118}
+      physicsShape:
+      - - {x: -115.69455, y: 198}
+        - {x: -230, y: 149.25787}
+        - {x: -230, y: -44}
+        - {x: -100, y: -198}
+        - {x: 15.284729, y: -198}
+        - {x: 230, y: -66}
+        - {x: 230, y: 58.026855}
+        - {x: 81.48883, y: 198}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sushi_set_a_2
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 538
+        width: 331
+        height: 278
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 118.5, y: 139}
+        - {x: -98.5, y: 139}
+        - {x: -165.5, y: 98}
+        - {x: -165.5, y: -83}
+        - {x: -15.5, y: -139}
+        - {x: 127.5, y: -139}
+        - {x: 163.5, y: -111}
+        - {x: 165.5, y: -97}
+        - {x: 165.5, y: 101}
+      physicsShape:
+      - - {x: -86.5, y: 139}
+        - {x: -129.21686, y: 93.51416}
+        - {x: -165.5, y: 39}
+        - {x: -165.5, y: -11}
+        - {x: -164.5, y: -15}
+        - {x: -149.5, y: -67}
+        - {x: -44.5, y: -139}
+        - {x: 104.5, y: -139}
+        - {x: 143.5, y: -135}
+        - {x: 165.5, y: -98}
+        - {x: 165.5, y: 87}
+        - {x: 51.37329, y: 139}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sushi_set_a_3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 424
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -111, y: 141}
+        - {x: -212, y: 113}
+        - {x: -212, y: -85.411354}
+        - {x: -125.462006, y: -141}
+        - {x: 132.1297, y: -141}
+        - {x: 212, y: -90.23253}
+        - {x: 212, y: 58.666153}
+        - {x: 143, y: 141}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sushi_set_a_4
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 269
+        width: 539
+        height: 334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 94.5, y: 167}
+        - {x: -96.5, y: 167}
+        - {x: -269.5, y: 136}
+        - {x: -269.5, y: -25}
+        - {x: -244.5, y: -103}
+        - {x: -161.5, y: -167}
+        - {x: 49.5, y: -167}
+        - {x: 255.5, y: -131}
+        - {x: 269.5, y: -104}
+        - {x: 269.5, y: 34}
+        - {x: 247.5, y: 90}
+      physicsShape:
+      - - {x: 269.5, y: 93.03027}
+        - {x: 90.1261, y: 167}
+        - {x: -269.5, y: 167}
+        - {x: -269.5, y: -52}
+        - {x: -135.5, y: -167}
+        - {x: 158.5, y: -167}
+        - {x: 269.5, y: -87}
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

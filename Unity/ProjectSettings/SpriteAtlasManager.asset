@@ -1,0 +1,8 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!363 &1
+SpriteAtlasManager:
+  m_ObjectHideFlags: 0
+  m_AtlasAssets:
+  - {fileID: 36500000, guid: 2c56a9013dc436042a8889226d9221c8, type: 2}
+  - {fileID: 36500000, guid: d6bd83485b4aba14f8f368f6c83c0d48, type: 2}

@@ -1,0 +1,169 @@
+fileFormatVersion: 2
+guid: dc8545d09a8f712438440078cec8b567
+timeCreated: 1471532558
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: sushi_set_b_0
+    21300002: sushi_set_b_1
+    21300004: sushi_set_b_2
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 200
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sushi_set_b_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 262
+        width: 320
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -58.956314, y: 77.5}
+        - {x: -135.6547, y: 62.29535}
+        - {x: -160, y: 38.351593}
+        - {x: -160, y: 1.5}
+        - {x: -133.17966, y: -11.873138}
+        - {x: -120.85936, y: -77.5}
+        - {x: 116.498505, y: -77.5}
+        - {x: 123.35602, y: -17.335175}
+        - {x: 160, y: -11.512573}
+        - {x: 160, y: 32.998505}
+        - {x: 93.84381, y: 77.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sushi_set_b_1
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 95
+        width: 253
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -82.70746, y: -81.3879}
+        - {x: -5.1440735, y: -67.249054}
+        - {x: 12.740967, y: -111.5}
+        - {x: 102.87952, y: -111.5}
+        - {x: 126.5, y: -96.28466}
+        - {x: 126.5, y: 7.5}
+        - {x: 86.17255, y: 78.14697}
+        - {x: -31.53299, y: 111.5}
+        - {x: -126.5, y: 111.5}
+        - {x: -126.5, y: -55.362335}
+      physicsShape:
+      - - {x: -126.5, y: 111.5}
+        - {x: -126.5, y: -69.5}
+        - {x: -28.529755, y: -80.89596}
+        - {x: 18.973389, y: -111.5}
+        - {x: 126.5, y: -111.5}
+        - {x: 126.5, y: 10.5}
+        - {x: 82.74536, y: 83.73279}
+        - {x: -3.0111694, y: 86.90967}
+        - {x: -27.052979, y: 111.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sushi_set_b_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 10
+        width: 362
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -151, y: 101.5}
+        - {x: -181, y: 62.5}
+        - {x: -181, y: -53.5}
+        - {x: -162, y: -101.5}
+        - {x: 19, y: -101.5}
+        - {x: 181, y: -76.5}
+        - {x: 181, y: -47.5}
+        - {x: -37, y: 101.5}
+      physicsShape:
+      - - {x: -127.06105, y: 101.5}
+        - {x: -161.16406, y: 77.06464}
+        - {x: -181, y: 26.5654}
+        - {x: -181, y: -45.25943}
+        - {x: -138.44226, y: -101.5}
+        - {x: -42.304596, y: -101.5}
+        - {x: 181, y: -75.5}
+        - {x: 181, y: -46.510765}
+        - {x: -45.015564, y: 101.5}
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

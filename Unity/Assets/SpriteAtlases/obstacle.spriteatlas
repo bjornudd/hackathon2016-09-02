@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!365 &36500000
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: obstacle
+  m_Hash:
+    serializedVersion: 2
+    Hash: 7b027044027f1ecb5890ad9398491d7d
+  m_CompressionQuality: 0
+  m_MaxWidth: 2048
+  m_MaxHeight: 2048
+  m_PaddingPower: 2
+  m_AnisoLevel: 1
+  m_Format: 5
+  m_TextureCompression: 0
+  m_ColorSpace: 1
+  m_FilterMode: 1
+  m_GenerateMipMaps: 0
+  m_EnableTightPacking: 1
+  m_EnableRotation: 1
+  m_AllowAlphaSplitting: 0
+  m_Readable: 1
+  m_HashString: 7b027044027f1ecb5890ad9398491d7d
+  m_TextureCount: 1
+  m_AlphaTexturesCount: 0
+  m_InputPackables:
+  - {fileID: 102900000, guid: 4ea1dc2f2f2cf62418d924e81a5a5205, type: 3}
+  - {fileID: 2800000, guid: 64192f3a559742b46b850be58d6b3142, type: 3}
+  - {fileID: 2800000, guid: 320549cb219756a47930ba251eddcbab, type: 3}
+  - {fileID: 2800000, guid: 88ecf4e54e5eeb948ba15a9a04a8ecc7, type: 3}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 320549cb219756a47930ba251eddcbab, type: 3}
+  - {fileID: 21300000, guid: 88ecf4e54e5eeb948ba15a9a04a8ecc7, type: 3}
+  - {fileID: 21300000, guid: c194c5dedaa8f2d41978f308794b26ac, type: 3}
+  - {fileID: 21300000, guid: 64192f3a559742b46b850be58d6b3142, type: 3}
+  - {fileID: 21300000, guid: 855d4b29f9bc313488bbeb1a68643c0a, type: 3}
