@@ -8,6 +8,9 @@ TagManager:
   - paddel
   - goalLeft
   - goalRight
+  - Enemy
+  - RightBoundry
+  - LeftBoundry
   layers:
   - Default
   - TransparentFX

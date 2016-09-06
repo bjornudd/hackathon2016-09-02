@@ -745,6 +745,23 @@ Prefab:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 2317da2c7c7c4f042b27d38e4fa0f3a7, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: 2317da2c7c7c4f042b27d38e4fa0f3a7, type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300014, guid: 5bbc0d8c537814141822bce9daedc725,
+        type: 3}
+    - target: {fileID: 21200000, guid: 2317da2c7c7c4f042b27d38e4fa0f3a7, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: 2317da2c7c7c4f042b27d38e4fa0f3a7, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2317da2c7c7c4f042b27d38e4fa0f3a7, type: 2}
   m_IsPrefabParent: 0
